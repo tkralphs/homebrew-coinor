@@ -1,8 +1,8 @@
 class CoinDataNetlib < Formula
   desc "Netlib LP models"
   homepage "http://www.coin-or.org/download/pkgsource/Data"
-  url "http://www.coin-or.org/download/source/Data/Netlib-1.2.6.tgz"
-  sha256 "02b3ef5cc7cce6ecf3778181f34faf8c1733af0e73cba09367d7fbd905b462b7"
+  url "http://www.coin-or.org/download/pkgsource/Data/Data-Netlib-1.2.6.tgz"
+  sha256 "dd687e5a35087ae0da825c5e24832b2ebaacc36a2ee73df084d4ef92e575e1ab"
 
   def install
     system "./configure", "--disable-debug",
